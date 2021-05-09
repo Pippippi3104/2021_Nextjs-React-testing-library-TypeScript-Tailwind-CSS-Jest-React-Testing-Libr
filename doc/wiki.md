@@ -35,5 +35,7 @@
 
 - Source
   - [GitHub source](https://github.com/GomaGoma676/nextjs-testing)
+  - [heroicons](https://heroicons.dev/)
+  - [Next.js のダイナミックルーティングを実装してみた](https://qiita.com/mt_816/items/d4e685953afa4906dd38)
 
 ### [Return to Contents](#contents)
