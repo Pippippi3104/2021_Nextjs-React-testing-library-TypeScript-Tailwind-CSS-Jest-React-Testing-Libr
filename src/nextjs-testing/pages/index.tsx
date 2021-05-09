@@ -1,8 +1,10 @@
+import Layout from '../components/Layout'
+
 const Home: React.FC = () => {
   return (
-    <div className="flex justify-center items-center flex-col min-h-screen font-mono">
-      Hello Nextjs
-    </div>
+    <Layout title="Home">
+      <div className="text-4xl">Welcome to Nextjs</div>
+    </Layout>
   )
 }
 export default Home
