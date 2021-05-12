@@ -3,6 +3,7 @@
 # Contents
 
 - [Section01](#sec01)
+- [Section02](#sec02)
 
 <a id="sec01"></a>
 
@@ -25,5 +26,24 @@
   - 6. Google Chrome 拡張機能
     - Mod header
     - [chrome ウェブストア](https://chrome.google.com/webstore/detail/modheader/idgpnmonknjnojddfkpgkljpfnnfcklj?hl=ja)
+
+### [Return to Contents](#contents)
+
+<a id="sec02"></a>
+
+# Section02
+
+- Source
+
+  - [GitHub source](https://github.com/GomaGoma676/nextjs-testing)
+  - [heroicons](https://heroicons.dev/)
+  - [Next.js のダイナミックルーティングを実装してみた](https://qiita.com/mt_816/items/d4e685953afa4906dd38)
+  - [Deploying Your Next.js App](https://nextjs.org/learn/basics/deploying-nextjs-app/deploy)
+
+- deploy at vercel
+  - build command
+    - npm test && npm run export ( "export": "next build && next export" )
+  - output directory
+    - out
 
 ### [Return to Contents](#contents)
