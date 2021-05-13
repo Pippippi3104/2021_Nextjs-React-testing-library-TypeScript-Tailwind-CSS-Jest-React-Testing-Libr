@@ -60,5 +60,10 @@
 - commands
   - django-admin startproject blog .
   - django-admin startapp api
+  - python manage.py makemigrations
+  - python manage.py migrate
+  - python manage.py createsuperuser
+    - ID : super
+    - pass: 111111111!Qq
 
 ### [Return to Contents](#contents)
