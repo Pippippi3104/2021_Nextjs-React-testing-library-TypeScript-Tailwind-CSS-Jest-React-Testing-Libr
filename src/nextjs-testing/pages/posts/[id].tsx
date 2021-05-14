@@ -13,8 +13,6 @@ const PostDetail: React.FC<POST> = ({ id, title, body }) => {
       </p>
       <p className="mb-4 text-xl font-bold">{title}</p>
       <p className="mx-10 mb-12">{body}</p>
-
-      {/* 戻るボタン */}
       <Link href="/blog-page">
         <div className="flex cursor-pointer mt-12">
           <svg
@@ -25,11 +23,11 @@ const PostDetail: React.FC<POST> = ({ id, title, body }) => {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
               d="M11 19l-7-7 7-7m8 14l-7-7 7-7"
-            ></path>
+            />
           </svg>
           <a data-testid="back-blog">Back to blog-page</a>
         </div>
@@ -37,16 +35,22 @@ const PostDetail: React.FC<POST> = ({ id, title, body }) => {
     </Layout>
   )
 }
-
 export default PostDetail
 
-// pathの取得
 export const getStaticPaths: GetStaticPaths = async () => {
   const paths = await getAllPostIds()
-  return { paths, fallback: false }
+  return {
+    paths,
+    fallback: false,
+  }
 }
-// screen に渡す props の生成 (getStaticPaths 生成結果を利用する)
+
 export const getStaticProps: GetStaticProps = async (ctx) => {
+  //const { post: post } = await getPostData(ctx.params.id as string)
   const post = await getPostData(ctx.params.id as string)
-  return { props: { ...post } }
+  return {
+    props: {
+      ...post,
+    },
+  }
 }

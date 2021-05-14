@@ -14,5 +14,4 @@ const Post: React.FC<POST> = ({ id, title }) => {
     </div>
   )
 }
-
 export default Post
