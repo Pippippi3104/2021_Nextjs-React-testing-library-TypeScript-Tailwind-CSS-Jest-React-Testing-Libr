@@ -43,6 +43,8 @@
   - [Pre-rendering and Data Fetching](https://nextjs.org/learn/basics/data-fetching/blog-data)
 
 - deploy at vercel
+  - Framework Preset
+    - Nuxt.js
   - build command
     - npm test && npm run export ( "export": "next build && next export" )
   - output directory
@@ -57,6 +59,7 @@
 - Source
 
   - [GitHub source (REST API)](https://github.com/GomaGoma676/blog_prj.git)
+  - [GitHub source (Nextjs)](https://github.com/GomaGoma676/nextjs-testing-blog.git)
 
 - commands
   - django-admin startproject blog .
