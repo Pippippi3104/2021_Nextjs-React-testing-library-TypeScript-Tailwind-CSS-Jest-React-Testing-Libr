@@ -43,6 +43,8 @@
   - [Pre-rendering and Data Fetching](https://nextjs.org/learn/basics/data-fetching/blog-data)
 
 - deploy at vercel
+  - Framework Preset
+    - Nuxt.js
   - build command
     - npm test && npm run export ( "export": "next build && next export" )
   - output directory
