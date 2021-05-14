@@ -1,3 +1,4 @@
+
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from . import views
@@ -11,5 +12,5 @@ urlpatterns = [
     path('', include(router.urls)),
     path('', include('djoser.urls.jwt')),
     path('register/', views.CreateUserView.as_view(), name='register'),
-    path('delete-blog/<str:pk>/', views.DeleteBlogView.as_view(), name='delete-blog')
+    path('delete-blog/<str:pk>/', views.DeleteBlogView.as_view(), name='delete-blog'),
 ]
