@@ -57,6 +57,7 @@
 - Source
 
   - [GitHub source (REST API)](https://github.com/GomaGoma676/blog_prj.git)
+  - [GitHub source (Nextjs)](https://github.com/GomaGoma676/nextjs-testing-blog.git)
 
 - commands
   - django-admin startproject blog .
