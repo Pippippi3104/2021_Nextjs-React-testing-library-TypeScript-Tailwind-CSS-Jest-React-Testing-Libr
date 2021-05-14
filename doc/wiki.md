@@ -40,6 +40,7 @@
   - [heroicons](https://heroicons.dev/)
   - [Next.js のダイナミックルーティングを実装してみた](https://qiita.com/mt_816/items/d4e685953afa4906dd38)
   - [Deploying Your Next.js App](https://nextjs.org/learn/basics/deploying-nextjs-app/deploy)
+  - [Pre-rendering and Data Fetching](https://nextjs.org/learn/basics/data-fetching/blog-data)
 
 - deploy at vercel
   - build command
