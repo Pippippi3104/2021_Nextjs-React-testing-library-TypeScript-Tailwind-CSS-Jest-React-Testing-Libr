@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "jest --env=jsdom --verbose"
+    "test": "jest --env=jsdom --verbose",
+    "export": "next build && next export"
   },
   "dependencies": {
     "autoprefixer": "^10.2.5",
