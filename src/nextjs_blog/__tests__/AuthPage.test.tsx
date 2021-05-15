@@ -22,7 +22,7 @@ const handlers = [
       return res(ctx.status(201))
     }
   ),
-  rest.post(
+  rest.get(
     `${process.env.NEXT_PUBLIC_RESTAPI_URL}/get-blogs/`,
     (req, res, ctx) => {
       return res(
