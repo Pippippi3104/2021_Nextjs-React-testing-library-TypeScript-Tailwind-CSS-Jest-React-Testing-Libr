@@ -76,7 +76,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   const paths = await getAllPostIds()
   return {
     paths,
-    fallback: true,
+    fallback: false,
   }
 }
 
