@@ -4,6 +4,7 @@
 
 - [Section01](#sec01)
 - [Section02](#sec02)
+- [Section03](#sec03)
 
 <a id="sec01"></a>
 
@@ -39,11 +40,34 @@
   - [heroicons](https://heroicons.dev/)
   - [Next.js のダイナミックルーティングを実装してみた](https://qiita.com/mt_816/items/d4e685953afa4906dd38)
   - [Deploying Your Next.js App](https://nextjs.org/learn/basics/deploying-nextjs-app/deploy)
+  - [Pre-rendering and Data Fetching](https://nextjs.org/learn/basics/data-fetching/blog-data)
 
 - deploy at vercel
+  - Framework Preset
+    - Nuxt.js
   - build command
     - npm test && npm run export ( "export": "next build && next export" )
   - output directory
     - out
+
+### [Return to Contents](#contents)
+
+<a id="sec03"></a>
+
+# Section03
+
+- Source
+
+  - [GitHub source (REST API)](https://github.com/GomaGoma676/blog_prj.git)
+  - [GitHub source (Nextjs)](https://github.com/GomaGoma676/nextjs-testing-blog.git)
+
+- commands
+  - django-admin startproject blog .
+  - django-admin startapp api
+  - python manage.py makemigrations
+  - python manage.py migrate
+  - python manage.py createsuperuser
+    - ID : super
+    - pass: 111111111!Qq
 
 ### [Return to Contents](#contents)
