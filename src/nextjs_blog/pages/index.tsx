@@ -21,14 +21,14 @@ const BlogPage: React.FC<STATICPROPS> = ({ posts }) => {
     setHasToken(false)
   }
   const deletePost = async (id: number) => {
-    await fetch(`${process.env.NEXT_PUBLIC_RESTAPI_URL}/get-blogs/${id}`, {
+    await fetch(`${process.env.NEXT_PUBLIC_RESTAPI_URL}/delete-blog/${id}`, {
       method: 'DELETE',
       headers: {
         Authorization: `JWT ${cookie.get('access_token')}`,
       },
     }).then((res) => {
       if (res.status === 401) {
-        alert('JWT Token not vaild')
+        alert('JWT Token not valid')
       }
     })
   }
